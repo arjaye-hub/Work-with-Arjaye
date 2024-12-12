@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design Showcase</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for page content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header Section */
+        h1 {
+            text-align: center;
+            color: #1a1a2e;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        h1::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: #1a1a2e;
+            margin: 1rem auto 0;
+        }
+
+        /* Gallery Styling */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* Gallery Item Styling */
+        .gallery-item {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Image Styling */
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Description Section */
+        .description {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .description p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .description h3 {
+            font-size: 1.2rem;
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem 0;
+            background: #1a1a2e;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Graphic Design Showcase</h1>
+        <div class="gallery">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item">
+                <img src="photos/LAGI.png" alt="Design 1">
+
+
+
+                <div class="description">
+                    <h3>Aesthetic  Ballot for a student council election</h3>
+                    <p>An eye-catching banner for an online Candidates.</p>
+                </div>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item">
+                <img src="photos/infographic.jpg" alt="Design 2">
+                <div class="description">
+                    <h3>Clear Infographic</h3>
+                    <p>Easy to understand and eye catching Infographic.</p>
+                </div>
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item">
+                <img src="photos/vintage .jpg" alt="Design 3">
+                <div class="description">
+                    <h3>Retro Music Production Graphic</h3>
+                    <p>A retro-themed illustration showcasing the power of sound and music.</p>
+                </div>
+            </div>
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item">
+                <img src="photos/HELLO WORLD.jpg" alt="Design 4">
+                <div class="description">
+                    <h3>Filmmaking Poster</h3>
+                    <p>A retro-themed poster that captures the essence of storytelling through film.</p>
+                </div>
+            </div>
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item">
+                <img src="photos/logo.jpg" alt="Design 5">
+                <div class="description">
+                    <h3>Logo Concept</h3>
+                    <p>A creative and unique logo for a new business.</p>
+                </div>
+            </div>
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item">
+                <img src="photos/sublimation.jpg" alt="Design 6">
+                <div class="description">
+                    <h3>Sublimation design</h3>
+                    <p>An aesthetic sublimation design.</p>
+                </div>
+            </div>
+            <!-- Gallery Item 7 -->
+            <div class="gallery-item">
+                <img src="design7.jpg" alt="Design 7">
+                <div class="description">
+                    <h3>Online Ad Banner</h3>
+                    <p>An eye-catching banner for an online store.</p>
+                </div>
+            </div>
+            <!-- Gallery Item 8 -->
+            <div class="gallery-item">
+                <img src="design8.jpg" alt="Design 8">
+                <div class="description">
+                    <h3>Real Estate Brochure</h3>
+                    <p>A sleek brochure design for a real estate agency.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Graphic Design Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

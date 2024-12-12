@@ -1,0 +1,92 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background: #343a40;
+            color: white;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+
+        .gallery-item {
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: white;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #343a40;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Photography Gallery</h1>
+        <p>Explore some of my favorite shots below!</p>
+    </header>
+
+    <main class="gallery">
+        <div class="gallery-item"><img src="photos/photog1.webp" alt="Photo 1"></div>
+        <div class="gallery-item"><img src="photos/photog2.webp" alt="Photo 2"></div>
+        <div class="gallery-item"><img src="photos/photog3.webp" alt="Photo 3"></div>
+        <div class="gallery-item"><img src="photos/photog4.webp" alt="Photo 4"></div>
+        <div class="gallery-item"><img src="photos/photog5.webp" alt="Photo 5"></div>
+        <div class="gallery-item"><img src="photos/photog6.webp" alt="Photo 6"></div>
+        <div class="gallery-item"><img src="photos/photog7.webp" alt="Photo 7"></div>
+        <div class="gallery-item"><img src="photos/photog8.webp" alt="Photo 8"></div>
+        <div class="gallery-item"><img src="photos/photog9.webp" alt="Photo 9"></div>
+        <div class="gallery-item"><img src="photos/photog10.webp" alt="Photo 10"></div>
+        <div class="gallery-item"><img src="photos/photog11.webp" alt="Photo 11"></div>
+        <div class="gallery-item"><img src="photos/photog12.webp" alt="Photo 12"></div>
+        <div class="gallery-item"><img src="photos/photog13.webp" alt="Photo 13"></div>
+        <div class="gallery-item"><img src="photos/photog14.webp" alt="Photo 14"></div>
+        <div class="gallery-item"><img src="photos/photog15.webp" alt="Photo 15"></div>
+        <div class="gallery-item"><img src="photos/photog16.webp" alt="Photo 16"></div>
+        <div class="gallery-item"><img src="photos/photog17.webp" alt="Photo 17"></div>
+        <div class="gallery-item"><img src="photos/photog18.webp" alt="Photo 18"></div>
+        <div class="gallery-item"><img src="photos/photog19.webp" alt="Photo 19"></div>
+        <div class="gallery-item"><img src="photos/photog20.webp" alt="Photo 20"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Photography. All rights reserved.</p>
+    </footer>
+</body>
+</html>
